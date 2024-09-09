@@ -25,10 +25,27 @@
     },
     "plugins": [
       "expo-router",
-    ["react-native-bootsplash", { "assetsDir": "assets/bootsplash" }]
+      [
+        "react-native-bootsplash",
+        {
+          "assetsDir": "assets/bootsplash"
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9ddf5c1b-bf4f-474d-9110-d5d137b11f7d"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/9ddf5c1b-bf4f-474d-9110-d5d137b11f7d"
     }
   }
 }
