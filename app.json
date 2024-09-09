@@ -46,6 +46,7 @@
     "runtimeVersion": "1.0.0",
     "updates": {
       "url": "https://u.expo.dev/9ddf5c1b-bf4f-474d-9110-d5d137b11f7d",
+      "fallbackToCacheTimeout": 10000,
       "requestHeaders": {
         "expo-channel-name": "main"
       }
